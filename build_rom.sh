@@ -8,6 +8,8 @@ source build/envsetup.sh
 lunch bootleg_merlinx-userdebug
 export BUILD_USERNAME=Andy
 export BUILD_HOSTNAME=Andy
+export KBUILD_USERNAME=Andy
+export KBUILD_HOSTNAME=Andy
 export TZ=Asia/Makassar
 mka bacon
 
